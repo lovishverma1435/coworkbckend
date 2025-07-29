@@ -1,6 +1,6 @@
 import express from "express"
 import jwt from "jsonwebtoken"
-import {    createuser, deleteall, deleteone, getall, getone, login, signup, update } from "../controller/usercontroller.js"
+import {createuser, deleteall, deleteone, getall, getone, login, signup, update } from "../controller/usercontroller.js"
 import { upload } from "../Middleware/upload.js"
 // import { upload } from "../middleware/upload.js"
 

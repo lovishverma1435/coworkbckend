@@ -5,7 +5,7 @@ import dotenv from "dotenv"
 import router from "./src/router/userrouter.js";
 import { dirname } from "./src/Middleware/upload.js";
 import path from "path"
-
+import Productdata from "./src/router/productitems.js"
 
 dotenv.config();
 
@@ -32,7 +32,7 @@ connection();
 
 app.use(
   "/api",
-  router,
+  router,Productdata
   
 );
 

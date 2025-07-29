@@ -1,4 +1,4 @@
-import User from "../module/user.js";
+import User from "../Models/user.js";
 import jwt from "jsonwebtoken"
 import bcrypt from "bcryptjs";
 const sec = process.env.SECRET_KEY
