@@ -51,7 +51,7 @@ const Product = sequelize.define(
       allowNull: false,
     },
     raiting: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     detailImgPath: {

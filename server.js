@@ -6,6 +6,7 @@ import router from "./src/router/userrouter.js";
 import { dirname } from "./src/Middleware/upload.js";
 import path from "path"
 import Productdata from "./src/router/productitems.js"
+import reviewdata from "./src/router/review.js"
 
 dotenv.config();
 
@@ -32,7 +33,7 @@ connection();
 
 app.use(
   "/api",
-  router,Productdata
+  router,Productdata,reviewdata
   
 );
 
